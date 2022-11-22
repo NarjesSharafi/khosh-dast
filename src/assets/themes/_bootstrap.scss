@@ -1,0 +1,26 @@
+:root{
+    --bg-header : #1E1D24;
+    --color-icon-header: #ffffff;
+    --color-text-header: #b8b6c0;
+    --color-background-service: #1681E5;
+    --color-border: #E3E2E7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    text-align: right;
+    font-family: iransans;
+}
+
+@font-face {
+    font-family: iransans;
+    src: url("./../../assets/fonts/iransans/IRANSansWeb.eot");
+    src: url("./../../assets/fonts/iransans/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+      url("./../../assets/fonts/iransans/IRANSansWeb.woff") format("woff"),
+      url("./../../assets/fonts/iransans/IRANSansWeb.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }

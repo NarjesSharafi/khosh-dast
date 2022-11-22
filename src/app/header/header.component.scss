@@ -1,0 +1,47 @@
+.header-content{
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.content{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: fit-content;
+    background: var(--bg-header);
+
+    .fa{
+        color:var(--color-icon-header);
+        transform: scaleX(-1);
+    }
+    
+    .header-contactInfo-phone-text, .header-contactInfo-hour-text{
+        color:var(--color-text-header);
+        &:hover{
+            color:var(--color-icon-header);
+            transition: all 0.3s ease-in-out;
+        }
+
+        span{
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+    .header-searchbox{
+        .form-inline{
+            .form-control{
+                width: 400px;
+                border-radius: 20px;
+                background-color: rgba(255, 255, 255, 0.9) !important;
+                color: #000;
+            }
+            .fa{
+                left: 10px;
+                color: #000;
+            }
+        }
+    }
+}
